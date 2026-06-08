@@ -1,0 +1,9 @@
+{
+  "comment": "referer:// 覆盖 Referer 头，用于绕过防盗链或模拟来源",
+  "rules": "cdn.example.com referer://http://trusted.example.com/page",
+  "request": {
+    "method": "GET",
+    "url": "http://cdn.example.com/assets/image.png",
+    "headers": {}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "comment": "resCookies:// 在响应中注入 Set-Cookie header",
+  "rules": "auth.example.com resCookies://(token=xyz789; Path=/; HttpOnly&lang=zh-CN; Path=/)",
+  "request": {
+    "method": "POST",
+    "url": "http://auth.example.com/login",
+    "headers": {}
+  }
+}

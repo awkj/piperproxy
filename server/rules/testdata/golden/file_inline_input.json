@@ -1,0 +1,9 @@
+{
+  "comment": "file://(content) 括号语法提供 inline 内容，返回 200 + 该内容（等价于 statusCode://200 + resBody://）",
+  "rules": "mock.example.com/ping file://({\"pong\":true})",
+  "request": {
+    "method": "GET",
+    "url": "http://mock.example.com/ping",
+    "headers": {}
+  }
+}

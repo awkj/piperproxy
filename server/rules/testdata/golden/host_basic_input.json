@@ -1,0 +1,9 @@
+{
+  "comment": "host:// 用 IP 覆盖目标地址，域名精确匹配",
+  "rules": "www.example.com host://1.2.3.4",
+  "request": {
+    "method": "GET",
+    "url": "http://www.example.com/path?q=1",
+    "headers": {}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "comment": "resHeaders:// 向上游响应追加/覆盖 header",
+  "rules": "api.example.com resHeaders://(x-powered-by=piper&cache-control=no-store)",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/health",
+    "headers": {}
+  }
+}

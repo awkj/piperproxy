@@ -1,0 +1,4 @@
+{
+  "res_delay_ms": 1500,
+  "tags": ["slow-api.example.com resDelay://1500"]
+}

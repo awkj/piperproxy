@@ -1,0 +1,6 @@
+{
+  "add_req_headers": {
+    "x-api-version": ["2"]
+  },
+  "tags": ["example.com/api/v2/ reqHeaders://(x-api-version=2)"]
+}

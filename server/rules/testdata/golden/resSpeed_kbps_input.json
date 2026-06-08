@@ -1,0 +1,9 @@
+{
+  "comment": "resSpeed:// 限制响应体下载速率（kbps），模拟低带宽网络",
+  "rules": "download.example.com resSpeed://100",
+  "request": {
+    "method": "GET",
+    "url": "http://download.example.com/large-file.zip",
+    "headers": {}
+  }
+}

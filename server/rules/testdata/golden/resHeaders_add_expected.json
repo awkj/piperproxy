@@ -1,0 +1,7 @@
+{
+  "add_res_headers": {
+    "x-powered-by": ["piper"],
+    "cache-control": ["no-store"]
+  },
+  "tags": ["api.example.com resHeaders://(x-powered-by=piper&cache-control=no-store)"]
+}

@@ -1,0 +1,4 @@
+{
+  "req_ua": "Mozilla/5.0 (compatible; piper/1.0)",
+  "tags": ["bot-check.example.com ua://Mozilla/5.0 (compatible; piper/1.0)"]
+}

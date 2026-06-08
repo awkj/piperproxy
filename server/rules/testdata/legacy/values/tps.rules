@@ -1,0 +1,2 @@
+# rules
+2.tps.piper.test jsAppend://`{${reqCookie.name}}`

@@ -1,0 +1,9 @@
+{
+  "comment": "resBody:// 替换响应体为 inline 内容，保持原始 status code",
+  "rules": "api.example.com/stub resBody://({\"stubbed\":true,\"data\":[]})",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/stub",
+    "headers": {}
+  }
+}

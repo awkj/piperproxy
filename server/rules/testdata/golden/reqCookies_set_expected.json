@@ -1,0 +1,7 @@
+{
+  "req_cookies": {
+    "session": "abc123",
+    "user_id": "42"
+  },
+  "tags": ["app.example.com reqCookies://(session=abc123&user_id=42)"]
+}

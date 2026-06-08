@@ -1,0 +1,4 @@
+{
+  "mock_status": 204,
+  "tags": ["$http://exact.example.com/specific-path statusCode://204"]
+}

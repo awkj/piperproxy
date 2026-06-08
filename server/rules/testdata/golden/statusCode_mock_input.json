@@ -1,0 +1,9 @@
+{
+  "comment": "statusCode:// 直接返回指定 status，不转发到上游（short-circuit mock）",
+  "rules": "api.example.com/forbidden statusCode://403",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/forbidden",
+    "headers": {}
+  }
+}

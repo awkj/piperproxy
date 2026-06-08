@@ -1,0 +1,9 @@
+{
+  "comment": "redirect:// 302 跳转，不转发到上游",
+  "rules": "old.example.com redirect://http://new.example.com",
+  "request": {
+    "method": "GET",
+    "url": "http://old.example.com/page",
+    "headers": {}
+  }
+}

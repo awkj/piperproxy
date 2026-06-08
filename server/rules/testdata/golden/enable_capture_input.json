@@ -1,0 +1,9 @@
+{
+  "comment": "enable:// 启用指定特性——capture 启用对该请求的 HTTPS 解密抓包",
+  "rules": "secure.example.com enable://capture",
+  "request": {
+    "method": "GET",
+    "url": "https://secure.example.com/secret",
+    "headers": {}
+  }
+}

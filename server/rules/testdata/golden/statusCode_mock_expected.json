@@ -1,0 +1,4 @@
+{
+  "mock_status": 403,
+  "tags": ["api.example.com/forbidden statusCode://403"]
+}

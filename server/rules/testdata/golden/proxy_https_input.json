@@ -1,0 +1,9 @@
+{
+  "comment": "https-proxy:// 通过 HTTPS 上游代理转发请求",
+  "rules": "secure.example.com https-proxy://proxy.corp.com:8443",
+  "request": {
+    "method": "GET",
+    "url": "https://secure.example.com/data",
+    "headers": {}
+  }
+}

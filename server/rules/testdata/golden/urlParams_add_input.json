@@ -1,0 +1,9 @@
+{
+  "comment": "urlParams:// 追加/覆盖 URL query 参数",
+  "rules": "search.example.com urlParams://(debug=true&trace=1&version=2)",
+  "request": {
+    "method": "GET",
+    "url": "http://search.example.com/results?q=hello",
+    "headers": {}
+  }
+}

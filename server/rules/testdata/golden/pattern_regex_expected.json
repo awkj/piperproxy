@@ -1,0 +1,4 @@
+{
+  "mock_status": 200,
+  "tags": ["/^https?:\\/\\/api\\d+\\.example\\.com/ statusCode://200"]
+}

@@ -1,0 +1,41 @@
+# 基础黄金集 fixture
+# 格式：pattern op://value
+
+# 域名前缀匹配
+example.com resHeaders://X-Via=piper
+
+# 带路径前缀
+example.com/api resHeaders://X-API=1
+
+# 精确 URL
+$https://exact.example.com/path resHeaders://X-Exact=yes
+
+# 正则
+/mock\.example\.com/ resHeaders://X-Regex=1 statusCode://200
+
+# 通配符子域名
+*.api.example.com resHeaders://X-Wildcard=1
+
+# 协议限定
+https://secure.example.com resHeaders://X-Secure=yes
+
+# Host DNS 覆盖
+dns.example.com host://1.2.3.4
+
+# 上游代理
+proxy.example.com proxy://127.0.0.1:8888
+
+# redirect
+redir.example.com redirect://https://new.example.com/
+
+# 静态文件 mock（inline）
+mock.example.com file://({"code":0})
+
+# 多个 op 同行
+multi.example.com resHeaders://X-A=1 resHeaders://X-B=2 enable://capture
+
+# 负向
+!negative.example.com resHeaders://X-NotNeg=yes
+
+# 延迟
+slow.example.com reqDelay://200 resDelay://500

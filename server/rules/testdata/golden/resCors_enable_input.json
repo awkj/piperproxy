@@ -1,0 +1,11 @@
+{
+  "comment": "resCors:// 启用默认 CORS——添加 Access-Control-Allow-Origin: * 等响应头",
+  "rules": "api.example.com resCors://enable",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/data",
+    "headers": {
+      "Origin": "http://app.example.com"
+    }
+  }
+}

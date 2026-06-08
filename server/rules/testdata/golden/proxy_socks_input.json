@@ -1,0 +1,9 @@
+{
+  "comment": "socks:// 通过 SOCKS5 上游代理转发请求",
+  "rules": "torrent.example.com socks://socks5.proxy.net:1080",
+  "request": {
+    "method": "GET",
+    "url": "http://torrent.example.com/tracker",
+    "headers": {}
+  }
+}

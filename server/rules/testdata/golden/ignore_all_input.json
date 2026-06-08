@@ -1,0 +1,9 @@
+{
+  "comment": "ignore:// 忽略该请求匹配到的其他规则（skip all matching rules），直接透传",
+  "rules": "example.com resHeaders://(x-debug=1)\nexample.com/bypass ignore://",
+  "request": {
+    "method": "GET",
+    "url": "http://example.com/bypass",
+    "headers": {}
+  }
+}

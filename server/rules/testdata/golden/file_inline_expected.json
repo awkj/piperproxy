@@ -1,0 +1,5 @@
+{
+  "mock_status": 200,
+  "mock_body": "{\"pong\":true}",
+  "tags": ["mock.example.com/ping file://({\"pong\":true})"]
+}

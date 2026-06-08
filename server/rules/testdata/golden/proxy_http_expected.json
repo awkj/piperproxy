@@ -1,0 +1,4 @@
+{
+  "proxy_url": "http://gateway.corp.com:3128",
+  "tags": ["*.corp.internal proxy://gateway.corp.com:3128"]
+}

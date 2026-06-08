@@ -1,0 +1,12 @@
+{
+  "comment": "reqBody:// 替换请求体为 inline 内容（括号语法）",
+  "rules": "api.example.com reqBody://({\"override\":true,\"source\":\"piper\"})",
+  "request": {
+    "method": "POST",
+    "url": "http://api.example.com/submit",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"original\":\"data\"}"
+  }
+}

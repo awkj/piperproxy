@@ -1,0 +1,4 @@
+{
+  "enable": ["capture"],
+  "tags": ["secure.example.com enable://capture"]
+}

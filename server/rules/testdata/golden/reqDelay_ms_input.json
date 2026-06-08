@@ -1,0 +1,9 @@
+{
+  "comment": "reqDelay:// 请求转发到上游前延迟指定毫秒数，模拟高延迟网络",
+  "rules": "slow-api.example.com reqDelay://2000",
+  "request": {
+    "method": "GET",
+    "url": "http://slow-api.example.com/data",
+    "headers": {}
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "proxy_url": "socks5://socks5.proxy.net:1080",
+  "tags": ["torrent.example.com socks://socks5.proxy.net:1080"]
+}

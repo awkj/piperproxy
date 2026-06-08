@@ -1,0 +1,9 @@
+{
+  "comment": "两条规则同时命中同一请求——后出现的规则优先级高于先出现的规则（按规则文本顺序）",
+  "rules": "example.com host://1.1.1.1\nexample.com/api host://2.2.2.2",
+  "request": {
+    "method": "GET",
+    "url": "http://example.com/api/data",
+    "headers": {}
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "script_ref": "piper.transform://",
+  "tags": ["scripted.example.com plugin://piper.transform://"]
+}

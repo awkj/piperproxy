@@ -1,0 +1,9 @@
+{
+  "comment": "file:// 以本地文件路径作为响应体，自动检测 Content-Type",
+  "rules": "mock.example.com file:///Users/piper/mocks/users.json",
+  "request": {
+    "method": "GET",
+    "url": "http://mock.example.com/api/users",
+    "headers": {}
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "host": "1.2.3.4",
+  "tags": ["www.example.com host://1.2.3.4"]
+}

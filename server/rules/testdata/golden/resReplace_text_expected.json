@@ -1,0 +1,6 @@
+{
+  "res_replace": [
+    { "pattern": "v1\\.2\\.3", "replacement": "v2.0.0" }
+  ],
+  "tags": ["html.example.com resReplace://v1\\.2\\.3/v2.0.0"]
+}

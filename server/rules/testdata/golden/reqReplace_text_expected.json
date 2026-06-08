@@ -1,0 +1,6 @@
+{
+  "req_replace": [
+    { "pattern": "staging", "replacement": "production" }
+  ],
+  "tags": ["api.example.com reqReplace://staging/production"]
+}

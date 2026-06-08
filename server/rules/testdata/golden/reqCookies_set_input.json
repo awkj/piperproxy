@@ -1,0 +1,9 @@
+{
+  "comment": "reqCookies:// 在请求中注入/覆盖 Cookie",
+  "rules": "app.example.com reqCookies://(session=abc123&user_id=42)",
+  "request": {
+    "method": "GET",
+    "url": "http://app.example.com/dashboard",
+    "headers": {}
+  }
+}

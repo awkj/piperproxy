@@ -1,0 +1,4 @@
+{
+  "mock_body": "{\"stubbed\":true,\"data\":[]}",
+  "tags": ["api.example.com/stub resBody://({\"stubbed\":true,\"data\":[]})"]
+}

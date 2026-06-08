@@ -1,0 +1,11 @@
+{
+  "comment": "同一 pattern 多个 operator——一行规则同时命中多个 operator，Action 应合并所有指令",
+  "rules": "app.example.com/api host://10.0.0.5 reqHeaders://(x-trace-id=abc123) resHeaders://(x-served-by=piper) resDelay://500",
+  "request": {
+    "method": "POST",
+    "url": "http://app.example.com/api/orders",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

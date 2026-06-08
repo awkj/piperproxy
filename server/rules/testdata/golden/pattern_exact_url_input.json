@@ -1,0 +1,9 @@
+{
+  "comment": "$URL 精确 URL 匹配——$ 前缀要求完整 URL 完全一致（含 path，不含 query）",
+  "rules": "$http://exact.example.com/specific-path statusCode://204",
+  "request": {
+    "method": "GET",
+    "url": "http://exact.example.com/specific-path",
+    "headers": {}
+  }
+}

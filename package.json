@@ -1,0 +1,16 @@
+{
+  "name": "piper-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "piper monorepo container — see web/ and packages/ui-kit/. Go backend lives in server/.",
+  "scripts": {
+    "build:ui-kit": "pnpm --filter @piper/ui-kit build",
+    "dev:web": "pnpm --filter @piper/webui dev",
+    "build:web": "pnpm --filter @piper/webui build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.0.0"
+}

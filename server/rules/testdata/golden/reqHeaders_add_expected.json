@@ -1,0 +1,7 @@
+{
+  "add_req_headers": {
+    "x-api-key": ["secret123"],
+    "x-env": ["staging"]
+  },
+  "tags": ["api.example.com reqHeaders://(x-api-key=secret123&x-env=staging)"]
+}

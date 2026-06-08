@@ -1,0 +1,11 @@
+{
+  "comment": "reqSpeed:// 限制请求体上传速率（kbps），模拟低带宽客户端",
+  "rules": "upload.example.com reqSpeed://50",
+  "request": {
+    "method": "POST",
+    "url": "http://upload.example.com/file",
+    "headers": {
+      "Content-Type": "multipart/form-data"
+    }
+  }
+}

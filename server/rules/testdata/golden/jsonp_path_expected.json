@@ -1,0 +1,4 @@
+{
+  "mock_jsonp": "/Users/piper/data/items.json",
+  "tags": ["jsonp.example.com jsonp:///Users/piper/data/items.json"]
+}

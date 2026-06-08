@@ -1,0 +1,9 @@
+{
+  "comment": "proxy:// 通过 HTTP 上游代理转发请求",
+  "rules": "*.corp.internal proxy://gateway.corp.com:3128",
+  "request": {
+    "method": "GET",
+    "url": "http://db.corp.internal/health",
+    "headers": {}
+  }
+}

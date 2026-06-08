@@ -1,0 +1,11 @@
+{
+  "comment": "plugin:// 引用 Sobek ESM 脚本作为扩展处理器（GO-6 实现），规则引擎只解析 script_ref",
+  "rules": "scripted.example.com plugin://piper.transform://",
+  "request": {
+    "method": "POST",
+    "url": "http://scripted.example.com/api/transform",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

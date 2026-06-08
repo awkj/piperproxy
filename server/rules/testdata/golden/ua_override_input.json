@@ -1,0 +1,11 @@
+{
+  "comment": "ua:// 覆盖 User-Agent，绕过 bot 检测或模拟特定客户端",
+  "rules": "bot-check.example.com ua://Mozilla/5.0 (compatible; piper/1.0)",
+  "request": {
+    "method": "GET",
+    "url": "http://bot-check.example.com/verify",
+    "headers": {
+      "User-Agent": "python-requests/2.31.0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "comment": "tpl:// 模板文件响应——文件内容支持变量插值（${url.host} 等），渲染后返回",
+  "rules": "template.example.com tpl:///Users/piper/templates/response.tpl",
+  "request": {
+    "method": "GET",
+    "url": "http://template.example.com/info",
+    "headers": {
+      "X-Client-Id": "client-123"
+    }
+  }
+}

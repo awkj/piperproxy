@@ -1,0 +1,4 @@
+{
+  "req_speed_kbps": 50,
+  "tags": ["upload.example.com reqSpeed://50"]
+}

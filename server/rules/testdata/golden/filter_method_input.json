@@ -1,0 +1,11 @@
+{
+  "comment": "includeFilter://m:POST 条件过滤——仅当请求方法为 POST 时，file:// mock 才生效",
+  "rules": "api.example.com/submit file://({\"accepted\":true}) includeFilter://m:POST",
+  "request": {
+    "method": "POST",
+    "url": "http://api.example.com/submit",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

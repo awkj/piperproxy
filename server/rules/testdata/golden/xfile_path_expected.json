@@ -1,0 +1,5 @@
+{
+  "mock_file": "/Users/piper/overrides/page.html",
+  "mock_file_optional": true,
+  "tags": ["override.example.com xfile:///Users/piper/overrides/page.html"]
+}

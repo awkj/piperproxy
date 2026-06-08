@@ -1,0 +1,5 @@
+packages:
+  - path: "github.com/awkj/piper/server/api"
+    output_path: "../web/src/api/types.gen.ts"
+    include_files:
+      - types.go

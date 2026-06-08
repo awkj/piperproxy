@@ -1,0 +1,4 @@
+{
+  "pipe_url": "http://target-proxy.example.com:8899",
+  "tags": ["pipe.example.com pipe://http://target-proxy.example.com:8899"]
+}

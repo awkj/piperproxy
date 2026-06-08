@@ -1,0 +1,9 @@
+{
+  "comment": "!pattern 负向模式——感叹号前缀，规则不匹配该 URL（示例：白名单排除）",
+  "rules": "example.com host://1.2.3.4\n!www.example.com host://1.2.3.4",
+  "request": {
+    "method": "GET",
+    "url": "http://www.example.com/page",
+    "headers": {}
+  }
+}

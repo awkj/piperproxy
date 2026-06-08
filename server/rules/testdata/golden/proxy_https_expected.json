@@ -1,0 +1,4 @@
+{
+  "proxy_url": "https://proxy.corp.com:8443",
+  "tags": ["secure.example.com https-proxy://proxy.corp.com:8443"]
+}

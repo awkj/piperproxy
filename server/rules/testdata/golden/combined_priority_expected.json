@@ -1,0 +1,7 @@
+{
+  "host": "2.2.2.2",
+  "tags": [
+    "example.com host://1.1.1.1",
+    "example.com/api host://2.2.2.2"
+  ]
+}

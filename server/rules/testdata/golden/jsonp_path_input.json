@@ -1,0 +1,9 @@
+{
+  "comment": "jsonp:// JSONP 文件响应——将文件内容包裹在 callback 函数调用中返回",
+  "rules": "jsonp.example.com jsonp:///Users/piper/data/items.json",
+  "request": {
+    "method": "GET",
+    "url": "http://jsonp.example.com/items?callback=handleData",
+    "headers": {}
+  }
+}

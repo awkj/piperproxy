@@ -1,0 +1,4 @@
+{
+  "mock_tpl": "/Users/piper/templates/response.tpl",
+  "tags": ["template.example.com tpl:///Users/piper/templates/response.tpl"]
+}

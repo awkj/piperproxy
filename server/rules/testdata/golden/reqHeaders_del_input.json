@@ -1,0 +1,12 @@
+{
+  "comment": "reqHeaders:// 删除请求头——值为空字符串时表示删除该 header",
+  "rules": "tracker.example.com reqHeaders://(cookie=&x-forwarded-for=)",
+  "request": {
+    "method": "GET",
+    "url": "http://tracker.example.com/pixel.gif",
+    "headers": {
+      "Cookie": "session=abc",
+      "X-Forwarded-For": "1.2.3.4"
+    }
+  }
+}

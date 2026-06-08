@@ -1,0 +1,9 @@
+{
+  "comment": "resDelay:// 上游响应到达后，延迟指定毫秒再转发给客户端",
+  "rules": "slow-api.example.com resDelay://1500",
+  "request": {
+    "method": "GET",
+    "url": "http://slow-api.example.com/slow-response",
+    "headers": {}
+  }
+}

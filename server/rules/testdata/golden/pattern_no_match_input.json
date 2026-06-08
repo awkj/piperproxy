@@ -1,0 +1,9 @@
+{
+  "comment": "无规则命中——请求 URL 不匹配任何规则，期望空 Action（零值）",
+  "rules": "other.example.com host://1.2.3.4\nfoo.example.com statusCode://200",
+  "request": {
+    "method": "GET",
+    "url": "http://nomatch.example.com/path",
+    "headers": {}
+  }
+}

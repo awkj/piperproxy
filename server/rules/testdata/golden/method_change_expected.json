@@ -1,0 +1,4 @@
+{
+  "req_method": "POST",
+  "tags": ["resource.example.com/items method://POST"]
+}

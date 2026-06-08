@@ -1,0 +1,4 @@
+{
+  "req_delay_ms": 2000,
+  "tags": ["slow-api.example.com reqDelay://2000"]
+}

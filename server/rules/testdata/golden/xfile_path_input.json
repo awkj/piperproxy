@@ -1,0 +1,9 @@
+{
+  "comment": "xfile:// 文件路径响应，如果文件不存在则继续转发到上游（与 file:// 的区别：不 short-circuit）",
+  "rules": "override.example.com xfile:///Users/piper/overrides/page.html",
+  "request": {
+    "method": "GET",
+    "url": "http://override.example.com/page",
+    "headers": {}
+  }
+}

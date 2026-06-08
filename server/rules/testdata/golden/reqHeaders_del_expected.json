@@ -1,0 +1,4 @@
+{
+  "del_req_headers": ["cookie", "x-forwarded-for"],
+  "tags": ["tracker.example.com reqHeaders://(cookie=&x-forwarded-for=)"]
+}

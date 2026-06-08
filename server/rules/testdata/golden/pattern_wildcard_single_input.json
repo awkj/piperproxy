@@ -1,0 +1,9 @@
+{
+  "comment": "*.example.com 单级通配——只匹配一级子域名（不匹配 example.com 本身，不匹配 a.b.example.com）",
+  "rules": "*.example.com host://10.0.0.1",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/v1",
+    "headers": {}
+  }
+}

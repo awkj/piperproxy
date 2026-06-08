@@ -1,0 +1,9 @@
+{
+  "comment": "rawfile:// 原始文件响应——文件内容直接作为 HTTP 响应（包含 header 行），适用于精确控制响应格式",
+  "rules": "binary.example.com rawfile:///Users/piper/raw/response.bin",
+  "request": {
+    "method": "GET",
+    "url": "http://binary.example.com/download",
+    "headers": {}
+  }
+}

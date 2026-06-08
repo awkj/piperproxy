@@ -1,0 +1,9 @@
+{
+  "comment": "urlReplace:// 将匹配的 URL 替换为另一个完整 URL（含 scheme 和 host）",
+  "rules": "old.example.com/api urlReplace://http://new.example.com/v2",
+  "request": {
+    "method": "GET",
+    "url": "http://old.example.com/api/users?page=1",
+    "headers": {}
+  }
+}

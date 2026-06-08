@@ -1,0 +1,30 @@
+node_modules/
+coverage/
+dist/
+build/
+package-lock.json
+pnpm-lock.yaml
+
+# Claude Code internal state
+.claude/
+
+# Legacy / generated frontends - leave untouched
+biz/webui/htdocs/
+biz/webui/htdocs-next/
+biz/weinre/
+packages/weinre/
+biz/webui/htdocs/js/
+biz/webui/htdocs/src/js/components/json/eval.js
+
+# Bundles & assets
+assets/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Generated CHANGELOGs
+CHANGELOG.md
+CHANGELOG-en_US.md
+
+# Test runtime data
+test/.piper/
+**/.piper/

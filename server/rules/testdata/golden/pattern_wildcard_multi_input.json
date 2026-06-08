@@ -1,0 +1,9 @@
+{
+  "comment": "**.example.com 多级通配——匹配任意级别子域名（包括 a.b.c.example.com）",
+  "rules": "**.example.com host://10.0.0.2",
+  "request": {
+    "method": "GET",
+    "url": "http://deep.nested.sub.example.com/resource",
+    "headers": {}
+  }
+}

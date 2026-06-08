@@ -1,0 +1,9 @@
+{
+  "comment": "log:// 标记该请求需要写入调试日志",
+  "rules": "debug.example.com log://",
+  "request": {
+    "method": "GET",
+    "url": "http://debug.example.com/trace",
+    "headers": {}
+  }
+}

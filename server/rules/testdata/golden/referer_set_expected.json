@@ -1,0 +1,4 @@
+{
+  "req_referer": "http://trusted.example.com/page",
+  "tags": ["cdn.example.com referer://http://trusted.example.com/page"]
+}

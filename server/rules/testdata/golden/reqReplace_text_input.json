@@ -1,0 +1,12 @@
+{
+  "comment": "reqReplace:// 对请求体做正则文本替换，格式 reqReplace://pattern/replacement",
+  "rules": "api.example.com reqReplace://staging/production",
+  "request": {
+    "method": "POST",
+    "url": "http://api.example.com/config",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"env\":\"staging\",\"host\":\"staging.api.example.com\"}"
+  }
+}

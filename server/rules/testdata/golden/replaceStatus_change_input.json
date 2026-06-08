@@ -1,0 +1,9 @@
+{
+  "comment": "replaceStatus:// 改写上游实际响应的 status code，仍转发到上游但修改状态码",
+  "rules": "legacy.example.com replaceStatus://200",
+  "request": {
+    "method": "GET",
+    "url": "http://legacy.example.com/api/old-endpoint",
+    "headers": {}
+  }
+}

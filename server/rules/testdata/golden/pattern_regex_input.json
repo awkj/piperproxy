@@ -1,0 +1,9 @@
+{
+  "comment": "/regex/ 正则模式——对完整 URL 做正则匹配，斜线包裹",
+  "rules": "/^https?:\\/\\/api\\d+\\.example\\.com/ statusCode://200",
+  "request": {
+    "method": "GET",
+    "url": "http://api3.example.com/health",
+    "headers": {}
+  }
+}

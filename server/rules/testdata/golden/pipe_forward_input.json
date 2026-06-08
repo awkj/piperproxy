@@ -1,0 +1,9 @@
+{
+  "comment": "pipe:// 将请求通过另一个代理转发（内部 pipe），不走正常 proxy 链",
+  "rules": "pipe.example.com pipe://http://target-proxy.example.com:8899",
+  "request": {
+    "method": "GET",
+    "url": "http://pipe.example.com/resource",
+    "headers": {}
+  }
+}

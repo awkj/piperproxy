@@ -1,0 +1,9 @@
+{
+  "comment": "同一规则，但请求方法为 GET——includeFilter://m:POST 不满足，规则不命中，期望空 Action",
+  "rules": "api.example.com/submit file://({\"accepted\":true}) includeFilter://m:POST",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/submit",
+    "headers": {}
+  }
+}

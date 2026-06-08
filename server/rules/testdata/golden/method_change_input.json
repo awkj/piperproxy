@@ -1,0 +1,9 @@
+{
+  "comment": "method:// 将 HTTP 方法改写为指定值（大写）",
+  "rules": "resource.example.com/items method://POST",
+  "request": {
+    "method": "GET",
+    "url": "http://resource.example.com/items",
+    "headers": {}
+  }
+}

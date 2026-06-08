@@ -1,0 +1,7 @@
+{
+  "res_cookies": {
+    "token": "xyz789; Path=/; HttpOnly",
+    "lang": "zh-CN; Path=/"
+  },
+  "tags": ["auth.example.com resCookies://(token=xyz789; Path=/; HttpOnly&lang=zh-CN; Path=/)"]
+}

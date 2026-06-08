@@ -1,0 +1,11 @@
+{
+  "comment": "reqHeaders:// 向上游请求追加自定义 header",
+  "rules": "api.example.com reqHeaders://(x-api-key=secret123&x-env=staging)",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/v1/data",
+    "headers": {
+      "Accept": "application/json"
+    }
+  }
+}

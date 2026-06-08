@@ -1,0 +1,4 @@
+{
+  "disable": ["cache"],
+  "tags": ["api.example.com disable://cache"]
+}

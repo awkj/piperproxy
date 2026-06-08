@@ -1,0 +1,4 @@
+{
+  "req_url": "http://new.example.com/v2/users?page=1",
+  "tags": ["old.example.com/api urlReplace://http://new.example.com/v2"]
+}

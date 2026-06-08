@@ -1,0 +1,11 @@
+{
+  "host": "10.0.0.5",
+  "add_req_headers": {
+    "x-trace-id": ["abc123"]
+  },
+  "add_res_headers": {
+    "x-served-by": ["piper"]
+  },
+  "res_delay_ms": 500,
+  "tags": ["app.example.com/api host://10.0.0.5 reqHeaders://(x-trace-id=abc123) resHeaders://(x-served-by=piper) resDelay://500"]
+}

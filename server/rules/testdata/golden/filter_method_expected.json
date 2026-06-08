@@ -1,0 +1,6 @@
+{
+  "mock_status": 200,
+  "mock_body": "{\"accepted\":true}",
+  "filter": "includeFilter://m:POST",
+  "tags": ["api.example.com/submit file://({\"accepted\":true}) includeFilter://m:POST"]
+}

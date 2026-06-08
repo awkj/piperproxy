@@ -1,0 +1,9 @@
+{
+  "comment": "domain/path/ 路径前缀匹配——URL 需以该 domain+path 开头",
+  "rules": "example.com/api/v2/ reqHeaders://(x-api-version=2)",
+  "request": {
+    "method": "GET",
+    "url": "http://example.com/api/v2/users?page=1",
+    "headers": {}
+  }
+}

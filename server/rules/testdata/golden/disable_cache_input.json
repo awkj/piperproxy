@@ -1,0 +1,9 @@
+{
+  "comment": "disable:// 禁用指定特性——cache 禁止请求命中代理内缓存",
+  "rules": "api.example.com disable://cache",
+  "request": {
+    "method": "GET",
+    "url": "http://api.example.com/fresh-data",
+    "headers": {}
+  }
+}
